@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>LTCL Bookmobile Stop Map</name>
+    <description>This map is a visual aid for discovering the different stops serviced by the Lake Travis Community Library Bookmobile.</description>
+    <Style id="icon-1664-01579B-normal">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1664-01579B-highlight">
+      <IconStyle>
+        <color>ff9b5701</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1664-01579B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1664-01579B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1664-01579B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-0288D1-4000-0-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-0288D1-4000-0-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>00d18802</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-0288D1-4000-0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-0288D1-4000-0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-0288D1-4000-0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>LTCL Bookmobile Stops</name>
+      <Placemark>
+        <name>Lake Travis Community Library</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQEE6STbZscnI3GBbiE1cxd_J5yVcHPv7CUlXa49nbm5xAmgic17PH_a7KPNa4geeu6so7SnN5PxS_Q5mCp2WyujscU8aHOg_N5zmp7YTRHKDFNH3rES6w3-xfqTqJs4w8r9ZbsOeqVDV7HwUI4ZiK2exfzqwWk59v7MthnsLexpi6kjBIEv8-b1eK_FbU33JKbz6-WmQZxHGU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1938 Lohmans Crossing Rd<br>Austin, TX 78734<br>512-263-2885<br>www.laketravislibrary.org]]></description>
+        <styleUrl>#icon-1664-01579B</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQEE6STbZscnI3GBbiE1cxd_J5yVcHPv7CUlXa49nbm5xAmgic17PH_a7KPNa4geeu6so7SnN5PxS_Q5mCp2WyujscU8aHOg_N5zmp7YTRHKDFNH3rES6w3-xfqTqJs4w8r9ZbsOeqVDV7HwUI4ZiK2exfzqwWk59v7MthnsLexpi6kjBIEv8-b1eK_FbU33JKbz6-WmQZxHGU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9742293,30.3434804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Apache Shores POA Parking Lot</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTtnywoKKuxd2KMWYhuK90LTIO90k1puEu9bfU8LKioRbN7Bgf0n_lKQx33BTH2p4iKvD7J0CNMl_5XbVqAgdjVTdnCcnJNiK0MRSpFOmc8njYCrTl7snQolSko2qHEiS_7ZvLbi9V_iBStJfEQ0YdZzcEYsdy8EQIZ43pFknjDyd1PMj5f-SLVNE3u2CRC4XYfHs8Q6nYBPjc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>14919 General Williamson Dr<br>Austin, TX 78734]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTtnywoKKuxd2KMWYhuK90LTIO90k1puEu9bfU8LKioRbN7Bgf0n_lKQx33BTH2p4iKvD7J0CNMl_5XbVqAgdjVTdnCcnJNiK0MRSpFOmc8njYCrTl7snQolSko2qHEiS_7ZvLbi9V_iBStJfEQ0YdZzcEYsdy8EQIZ43pFknjDyd1PMj5f-SLVNE3u2CRC4XYfHs8Q6nYBPjc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.92868,30.386517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arbor Terrace Lakeway Assisted Living
+</name>
+        <description><![CDATA[300 Medical Parkway, Lakeway, TX 78738<br>Staff will take carts of library materials inside the facility.]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9714192,30.3310333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lakeside RV Park (formerly Armadillo RV Park)
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQneOOjHYpCsNR1RLETncCAUwnkiuZdIJlGEKVYfF8EccSHG9iMvr9heCVbQE1FvKkqaNLFzvojJpChRwWEpGK9oR0Ngq9cZJUcEBiqXdqyDZ1p1BPnVd67wWXO049Vw84euLGQeVYvaGat20h2hW1-X9iHGaQ911qYwutsUPmyelSX3-rW2Ya1BT_5fB96Cpz9q68AMKmTQIE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>5101 Beacon Drive<br>Austin, TX 78734<br>512-266-9012]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQneOOjHYpCsNR1RLETncCAUwnkiuZdIJlGEKVYfF8EccSHG9iMvr9heCVbQE1FvKkqaNLFzvojJpChRwWEpGK9oR0Ngq9cZJUcEBiqXdqyDZ1p1BPnVd67wWXO049Vw84euLGQeVYvaGat20h2hW1-X9iHGaQ911qYwutsUPmyelSX3-rW2Ya1BT_5fB96Cpz9q68AMKmTQIE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9257853,30.411663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bee Loved Preschool</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGT8owiJDHo3zlo7098uLVlfL5O8aJFoIxoPMSdSewsl8QZEqtGfKTr5p9XKGolC5x1DJTWqbYzTd_nKJEMjesma70BtHFbRFFEg-BWm-QQNn43qM3Sl1zfwqJrFkhTiJJouj4w4So46OFwTTpf3bGF5HjLFcq_OSYZg90n9ii7Xsyi6lWuEQgLhDBqbdMDerxTg-Bg6HOH85A?authuser=0&fife=s16383" height="200" width="auto" /><br><br>3000 Bee Creek Rd<br>Spicewood, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGT8owiJDHo3zlo7098uLVlfL5O8aJFoIxoPMSdSewsl8QZEqtGfKTr5p9XKGolC5x1DJTWqbYzTd_nKJEMjesma70BtHFbRFFEg-BWm-QQNn43qM3Sl1zfwqJrFkhTiJJouj4w4So46OFwTTpf3bGF5HjLFcq_OSYZg90n9ii7Xsyi6lWuEQgLhDBqbdMDerxTg-Bg6HOH85A?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0425717,30.370095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belmont Village Senior Living Lakeway</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQswJSlMtcBie9Tk5f8cL6nrllpa1Ov9LVHKpPjE69ACHH56sF21dfcuMnj3ctQIEYVt-ABCaV4WyVIbAhqawMqHcsAslrQpWBmYD67twTDajYWcdScnY_CYMKetONs-LTrI6RgHnXOPfyunD8_XcLCb4FiNkJocJfT59y2qxojV9BG-I5JEuah1szBXALhwPlCPu1MmxbeUtY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>107 Bella Montagna Cir<br>Lakeway, TX 78734<br>512-402-1800<br>www.belmontvillage.com]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQswJSlMtcBie9Tk5f8cL6nrllpa1Ov9LVHKpPjE69ACHH56sF21dfcuMnj3ctQIEYVt-ABCaV4WyVIbAhqawMqHcsAslrQpWBmYD67twTDajYWcdScnY_CYMKetONs-LTrI6RgHnXOPfyunD8_XcLCb4FiNkJocJfT59y2qxojV9BG-I5JEuah1szBXALhwPlCPu1MmxbeUtY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.958614,30.358756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Briarcliff Community Center</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQIOoXLn9dNJLxZdrwVxzZShwg6nzmTSfY8PvGT9eUwv7d_fNembLxBKQUaTKL_p55xObqHmjVxR29rpH3DWmswH_tia6mEJP_KpqNNgK2WbGGofz3XfkHEljoi2PvGqLMnCtbixuhvoRqXiYLkjRCEEleHKvy16nHv6B9VupJ-7tCR-G018lfZsedWhwYhmfN8ejosXiPYofc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>22801 Briarcliff Dr<br>Briarcliff, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQIOoXLn9dNJLxZdrwVxzZShwg6nzmTSfY8PvGT9eUwv7d_fNembLxBKQUaTKL_p55xObqHmjVxR29rpH3DWmswH_tia6mEJP_KpqNNgK2WbGGofz3XfkHEljoi2PvGqLMnCtbixuhvoRqXiYLkjRCEEleHKvy16nHv6B9VupJ-7tCR-G018lfZsedWhwYhmfN8ejosXiPYofc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.057721,30.405796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brookdale Lakeway</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTNYDANRMvS6Xe-syKLR9hhKscnI7BDY27IMBOwHXNuwp7PymgwFeQOk7Fg_m3Oa8hwBhcUqQE1SDqwSp4b--QUQLZ45QTRbKXA9mjUkafPBwLmVAkJIzHNBq0lJUhvINXi-OisBC9_rXHfaFbOzBNCFl5wRCdXEm_KZtzLZORN2kTLE0oa2XwbsO1qePHzizRciWNfhEvDXtU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1915 Lohmans Crossing Rd<br>Lakeway, TX 78734<br>512-261-7146<br>www.brookdale.com/en/communities/brookdale-lakeway.html]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTNYDANRMvS6Xe-syKLR9hhKscnI7BDY27IMBOwHXNuwp7PymgwFeQOk7Fg_m3Oa8hwBhcUqQE1SDqwSp4b--QUQLZ45QTRbKXA9mjUkafPBwLmVAkJIzHNBq0lJUhvINXi-OisBC9_rXHfaFbOzBNCFl5wRCdXEm_KZtzLZORN2kTLE0oa2XwbsO1qePHzizRciWNfhEvDXtU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9765002,30.3477062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brookdale Lohmans Crossing</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSr0Gzmj3s98FKlJduLmhexJQJjB0mgIgJDvdvURcqn-7kpgVGNPJhzcmNjmODRiKTVQnALoRGTxQUcvNiS3_dMMYdzy8r74Zugz98uh4FnFZtVQtuoEjf3EnpHHHGBj3PXDc6C_1d5pt0BdiHvaYGPDJ_uJA63JgYIejjfRM9zeeqOiSbiB3ra2afLk7NvGCAkUAlVFELRQ84?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1604 Lohmans Crossing Rd<br>Austin, TX 78734<br>512-261-6653<br>www.brookdale.com/en/communities/brookdale-lohmans-crossing.html]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSr0Gzmj3s98FKlJduLmhexJQJjB0mgIgJDvdvURcqn-7kpgVGNPJhzcmNjmODRiKTVQnALoRGTxQUcvNiS3_dMMYdzy8r74Zugz98uh4FnFZtVQtuoEjf3EnpHHHGBj3PXDc6C_1d5pt0BdiHvaYGPDJ_uJA63JgYIejjfRM9zeeqOiSbiB3ra2afLk7NvGCAkUAlVFELRQ84?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.978747,30.3549331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Deer Creek Neighborhood
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR0CYV7cPUEKlHUdDpq0aeVvUwXQlZGgdAaEogh8itcVhr8tILA54aJchfmIvCmsTLAIEzmH37hNQA7nFHiDexpWt-N8ZclWin5542gu-EeFH0xUC8E0sVL_8Cx5VQ7UpB293ZLnk1wwAm8bg0VaFO3-BulU8VRk0_Jx_e5wPySaWrm850ets-nCO-c0r5sOsGA79vNdeOjO6s?authuser=0&fife=s16383" height="200" width="auto" /><br><br>10208 Sandy Beach Rd<br>Dripping Springs, TX 78620]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR0CYV7cPUEKlHUdDpq0aeVvUwXQlZGgdAaEogh8itcVhr8tILA54aJchfmIvCmsTLAIEzmH37hNQA7nFHiDexpWt-N8ZclWin5542gu-EeFH0xUC8E0sVL_8Cx5VQ7UpB293ZLnk1wwAm8bg0VaFO3-BulU8VRk0_Jx_e5wPySaWrm850ets-nCO-c0r5sOsGA79vNdeOjO6s?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.045986,30.276902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emmaus Catholic Parish Early Childhood Education Program Preschool
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQ-Le1TdI9tIx--JPeakunFjZHt0DiPtnE0EvqKcx4NCvitA6eVkluFLlD3FiXsbDWrkEY2hoojcR4AWUZcIw_EGZ0bb6vvqlVUt74yoeKQSR9RV31bO4UXbgB2cdtl5Vad3FaltzhwHpWVjb-5cqvLz47kCTozjFyMewCzowPxX31HqPrryJ8yubMEJgVAIgplfCvgF7Xssw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1718 Lohmans Crossing<br> Austin, TX 78734]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQ-Le1TdI9tIx--JPeakunFjZHt0DiPtnE0EvqKcx4NCvitA6eVkluFLlD3FiXsbDWrkEY2hoojcR4AWUZcIw_EGZ0bb6vvqlVUt74yoeKQSR9RV31bO4UXbgB2cdtl5Vad3FaltzhwHpWVjb-5cqvLz47kCTozjFyMewCzowPxX31HqPrryJ8yubMEJgVAIgplfCvgF7Xssw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9785281,30.3526328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emmaus Catholic Parish
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRqs3aUWJrc7M2t_IL0MssMgL4mJSDUeAnRFsXkF1Sr02oPHEPSyMtfs8MRV3w8m4nUVD1Ae9DmxY2kw3vMVwXi3MsmEYwRRbXhN_igs4cyIo95obz6P_HGYXaiSttTkh7I1JhXYYNkoVbEDzOPrm5D0PTYisgQ3LnTPIfbSO_8RSI98U2Iyhdx1p2QA16E8mi6XMo4FBx5QcI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1718 Lohmans Crossing Rd<br>Lakeway, TX 78734]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRqs3aUWJrc7M2t_IL0MssMgL4mJSDUeAnRFsXkF1Sr02oPHEPSyMtfs8MRV3w8m4nUVD1Ae9DmxY2kw3vMVwXi3MsmEYwRRbXhN_igs4cyIo95obz6P_HGYXaiSttTkh7I1JhXYYNkoVbEDzOPrm5D0PTYisgQ3LnTPIfbSO_8RSI98U2Iyhdx1p2QA16E8mi6XMo4FBx5QcI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9785281,30.3526328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Goddard School of Lakeway</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSTgMffFtvMuwSvNb-N4TAl5wDXTBEKnSpUvG4eLAW7A2Wui8gbk8hPkuzFMjwS-3axPJT62JLJkgMBaA7u1zUYuSRma-wotJdxrN5TzRsJ2mvCTeq-8KeSw5NVJIQcD3NBjf5Amo7rMURjl_5g2ivpPostajasT2nx6D1zSvlqF2y3u9g-0plWZrmYtFnoDd-zh3GjwctjHQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>301 Medical Parkway, Lakeway, TX 78738]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSTgMffFtvMuwSvNb-N4TAl5wDXTBEKnSpUvG4eLAW7A2Wui8gbk8hPkuzFMjwS-3axPJT62JLJkgMBaA7u1zUYuSRma-wotJdxrN5TzRsJ2mvCTeq-8KeSw5NVJIQcD3NBjf5Amo7rMURjl_5g2ivpPostajasT2nx6D1zSvlqF2y3u9g-0plWZrmYtFnoDd-zh3GjwctjHQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9696584,30.3314443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Helping Hand Crisis Ministry of Spicewood</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRHmRzgqRSOPEq4Or9Blnb-VdA8CVqUt8I3vdEmUcdpETtsaoimT4Nz4kySnVHysBou5MF62oL_uYuuQ-HOSfNwVBy2oqGTV7xpY35-hfFIkc2Z8vcEH9wf2pDNzQRjK4s9nEG8ebyn9FxlGMjnZpXgDb6Kleo7mmtcqAnKRRwaZJ94isF27FexaXPRxBet8hE3knfLtAs9AGI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>512 Pace Bend Rd N<br>Spicewood, TX 78669<br>512-808-6092<br>www.helpinghandspicewood.org]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRHmRzgqRSOPEq4Or9Blnb-VdA8CVqUt8I3vdEmUcdpETtsaoimT4Nz4kySnVHysBou5MF62oL_uYuuQ-HOSfNwVBy2oqGTV7xpY35-hfFIkc2Z8vcEH9wf2pDNzQRjK4s9nEG8ebyn9FxlGMjnZpXgDb6Kleo7mmtcqAnKRRwaZJ94isF27FexaXPRxBet8hE3knfLtAs9AGI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.047438,30.419531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Highway 71 Mobile Home Park</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRo_7RyZQRJhCV-eTU62CMQ0ghwgX4McAu3GM5n9jUvLFlcXbqs7pXBaAiYpNPz2Cgur4KurXSImOj9YZo9O7GGJjE_I10DOyuh1M-F5NCu8h8xwHiJEFxOVEdV6dLxEcnmCZJO_mvYYYj0REQ2M95-d9t2ijPOjh60mPdjlb_pSq77ABICa_s0aGunCzhwcVi0RKdZWWTPXuA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>21120 TX-71<br>Spicewood, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRo_7RyZQRJhCV-eTU62CMQ0ghwgX4McAu3GM5n9jUvLFlcXbqs7pXBaAiYpNPz2Cgur4KurXSImOj9YZo9O7GGJjE_I10DOyuh1M-F5NCu8h8xwHiJEFxOVEdV6dLxEcnmCZJO_mvYYYj0REQ2M95-d9t2ijPOjh60mPdjlb_pSq77ABICa_s0aGunCzhwcVi0RKdZWWTPXuA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0635333,30.3534168,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KLA Schools of Sweetwater
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTO4rxVYGZCh5heNfEoVio-2jJgaxXlye8irHkLFW8WcU51CN7WC8DOzvPbO8TG2cdV9bJ7bp2FwuFGTwudC5U5PnQonG5G1Zqnhpt4tftYLaIAUWm9TUbcPOnRRaegP-Lxbdcf618Hl6w6_MtXKx6tL0mie1HxiEFOzrzK-j1JetLZO2STecKqcMUi6v0Lq6uRAd1fCObg7Q?authuser=0&fife=s16383" height="200" width="auto" /><br><br>18101 State Hwy 71, Austin, TX 78738]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTO4rxVYGZCh5heNfEoVio-2jJgaxXlye8irHkLFW8WcU51CN7WC8DOzvPbO8TG2cdV9bJ7bp2FwuFGTwudC5U5PnQonG5G1Zqnhpt4tftYLaIAUWm9TUbcPOnRRaegP-Lxbdcf618Hl6w6_MtXKx6tL0mie1HxiEFOzrzK-j1JetLZO2STecKqcMUi6v0Lq6uRAd1fCObg7Q?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0243916,30.3300826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Travis Christian Academy</name>
+        <description>5414 Reimers-Peacock Road, Spicewood, TX 78669</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -98.075802,30.348636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Travis Crisis Ministries</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQ4Qo0Twj_Vv2u49V5IJxoWgQNkl1Zmx0B4_lhjfU51ZgnT45OoCMvEm-TjxgN5hpsAczDc7reV3OKOzP9EihB7I8o95vPlJTxqQqSyjSiC2CH6TCA0PqS7hEri3CgGhUfsPnHoEP6_8jrdZ4L1hEypmwKv2-BMjbo_EI7QdBERKJkaZGob9LuGOdAmSkJZIrP1OnA-1Hjwvbs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>107 Ranch Rd 620 S # 114<br>Lakeway, TX 78734<br>512-266-9810<br>www.ltcrisisministries.org]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQ4Qo0Twj_Vv2u49V5IJxoWgQNkl1Zmx0B4_lhjfU51ZgnT45OoCMvEm-TjxgN5hpsAczDc7reV3OKOzP9EihB7I8o95vPlJTxqQqSyjSiC2CH6TCA0PqS7hEri3CgGhUfsPnHoEP6_8jrdZ4L1hEypmwKv2-BMjbo_EI7QdBERKJkaZGob9LuGOdAmSkJZIrP1OnA-1Hjwvbs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9509967,30.3653333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Travis Independent Living</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSwi7t6p5tFsDZQBH6wXLRxChXViC2Dq8HDLEgKNNN0jVHf4N9yINux2p0L5PlIScAnXC4hkbfpWe_kAVAMLcJjDSqVSHzRIuH4GhsxYSfSMlEYSTBKKkiyNtnTCkBh6sC1ufXGPMHt1RWzzQWdf_yVMm-1jpWOu5cB8nw5opZyIyhBHoVGv_EFLhSOT1wIB56ZXRQ37AmH9ps?authuser=0&fife=s16383" height="200" width="auto" /><br><br>302 Medical Pkwy<br>Lakeway, TX 78738<br>512-262-9758<br>www.spectrumretirement.com/senior-living/tx/lakeway/lake-travis-independent-living/independent-living]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGSwi7t6p5tFsDZQBH6wXLRxChXViC2Dq8HDLEgKNNN0jVHf4N9yINux2p0L5PlIScAnXC4hkbfpWe_kAVAMLcJjDSqVSHzRIuH4GhsxYSfSMlEYSTBKKkiyNtnTCkBh6sC1ufXGPMHt1RWzzQWdf_yVMm-1jpWOu5cB8nw5opZyIyhBHoVGv_EFLhSOT1wIB56ZXRQ37AmH9ps?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9689906,30.3307761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lake Travis Inn & RV Park]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTXLUQsxK-LV7UEGsECMYhq_YyBwcRIcokncGKWLxhMLk8EZD-SKoM6_E3enDPjp0jSsqLwYBMe9RZP4gsUIkWc8dfLE7rcG8yIZBUF5fhxf5B7uDdokcG3_T_SeEFBtFbva3sP7pd0CBLav-sOjgyQa2UrHDRR_y6EViahZX1RMuj6Pc0gKCT5VYH_lg_wNZ8EAtglaOhFsNw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>4511 Doss Rd<br>Austin, TX 78734<br>512-266-9329<br>www.ltrvpark.com]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGTXLUQsxK-LV7UEGsECMYhq_YyBwcRIcokncGKWLxhMLk8EZD-SKoM6_E3enDPjp0jSsqLwYBMe9RZP4gsUIkWc8dfLE7rcG8yIZBUF5fhxf5B7uDdokcG3_T_SeEFBtFbva3sP7pd0CBLav-sOjgyQa2UrHDRR_y6EViahZX1RMuj6Pc0gKCT5VYH_lg_wNZ8EAtglaOhFsNw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9296651,30.4075282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Travis United Methodist Church Preschool
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQbRskcX6u9n3DyfOKJGsFBVI4RrBa963YtcGE3V1TGxNHI9K0qFnyeW_pr7-1kw9xsWErh4w4OivCP7dOBGwQF18e2PpnXuWjEW9Sev3ZzPEQw-JERlGAo5z6e9ImF_HCLfmqnimHv42G5-PFicvgoGCIY5ONRYmd2cryTTBy2k2bfeXFWNARxqL0G46ir3Oy261cIQqiltQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1502 RR 620 North, Austin, TX78734]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQbRskcX6u9n3DyfOKJGsFBVI4RrBa963YtcGE3V1TGxNHI9K0qFnyeW_pr7-1kw9xsWErh4w4OivCP7dOBGwQF18e2PpnXuWjEW9Sev3ZzPEQw-JERlGAo5z6e9ImF_HCLfmqnimHv42G5-PFicvgoGCIY5ONRYmd2cryTTBy2k2bfeXFWNARxqL0G46ir3Oy261cIQqiltQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9653313,30.3490796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lupine Lane Preschools
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRGiAIkGpugDpBNT4KmfIxiKqDdXWuCoMv44P1BollQJ7w41VRC3a6a1pDXWReFLfTfGfZpxD6E_DG-kmJDv-7P41LaNwf6Vl1LqnAuUi3e4cgrUvrGBk_LV4U-L6kDkmaHVyAH5rl8-s1ZK0V7uJftSweI2nw2j6QWC0gr_xE9fRZU99tYjTYrd6T5hNe-lyemDkf1WSsRh5M?authuser=0&fife=s16383" height="200" width="auto" /><br><br>1001 Highlands Boulevard, Austin, TX 78738]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRGiAIkGpugDpBNT4KmfIxiKqDdXWuCoMv44P1BollQJ7w41VRC3a6a1pDXWReFLfTfGfZpxD6E_DG-kmJDv-7P41LaNwf6Vl1LqnAuUi3e4cgrUvrGBk_LV4U-L6kDkmaHVyAH5rl8-s1ZK0V7uJftSweI2nw2j6QWC0gr_xE9fRZU99tYjTYrd6T5hNe-lyemDkf1WSsRh5M?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0125228,30.3498147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A New Day Child Development Center, LLC</name>
+        <description><![CDATA[5014 Bee Creek Road<br>Spicewood, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -98.0246579,30.3343058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[One Chapel Lake Travis Children's Academy]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQysoxzqI7fHn7DRJE1AbriXuA8mAlpYGuvseUBqNg4zajWahUPDsW520qTRmDdhaH4pMAA3BxuOlYwI2hqebmAWkaBnQyBwHJn8J9h9DylY_1UwMEDvK2vuhU7DhaLL18yTcg8BP8gXZaorTa-hR1CaBSPtZDQEK92P0Y6YMiiUNKhNHT9lQvJkf1BqS_otjFhFGvQjhpm6KQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>22800 TX-71<br>Spicewood, TX 78669<br>512-344-9777<br>www.onechapel.com]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGQysoxzqI7fHn7DRJE1AbriXuA8mAlpYGuvseUBqNg4zajWahUPDsW520qTRmDdhaH4pMAA3BxuOlYwI2hqebmAWkaBnQyBwHJn8J9h9DylY_1UwMEDvK2vuhU7DhaLL18yTcg8BP8gXZaorTa-hR1CaBSPtZDQEK92P0Y6YMiiUNKhNHT9lQvJkf1BqS_otjFhFGvQjhpm6KQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0792099,30.3757701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sun Outdoors Lake Travis
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRHiSStt3W3aKP8x-GkOstFeJ_Qq8953rvHur-ilPSxOadMOiCFfLSJNcDDco8ZkfgVO2XogcBvQW5mnt815v7CJQFZKXlgua5xE84-xyd_EO_f1r7LA5zor8DDBIODHhxorrZnCB-bb_xV_3MTKYQ_aUf1hO1KKXDfK2xHNEeOwBwsNuwlzIlVsTy6WQxgQIzJSwqPq8ACjzE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>5220 Hudson Bend Rd<br>Austin, TX 78734<br>512-266-8001<br>https://www.sunrvresorts.com/resorts/southwest/texas/la-hacienda/]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGRHiSStt3W3aKP8x-GkOstFeJ_Qq8953rvHur-ilPSxOadMOiCFfLSJNcDDco8ZkfgVO2XogcBvQW5mnt815v7CJQFZKXlgua5xE84-xyd_EO_f1r7LA5zor8DDBIODHhxorrZnCB-bb_xV_3MTKYQ_aUf1hO1KKXDfK2xHNEeOwBwsNuwlzIlVsTy6WQxgQIzJSwqPq8ACjzE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -97.9304949,30.41564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sweetwater Clubhouse
+</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGShQSiIfuxMp1QfdrqsHmtVukxtiPiuKgnHC5qNLJrEHufiKq_w0p-dvAQZCOjTJJi4xY9Fg_y-PascoLhx5HdWeGKoJEfbSRN9QCFOPi0HZyCcJuqVp29nhtPg7uOqaAIr-hmXzagxwG-Twj7SGDoxv0BE4YtESEos7q6sSGgPP0NxENFVZ0nz6X305IOBTsMcdAa0AKOoMg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>17921 Sweetwater Club Cir<br>Austin, TX 78738]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGShQSiIfuxMp1QfdrqsHmtVukxtiPiuKgnHC5qNLJrEHufiKq_w0p-dvAQZCOjTJJi4xY9Fg_y-PascoLhx5HdWeGKoJEfbSRN9QCFOPi0HZyCcJuqVp29nhtPg7uOqaAIr-hmXzagxwG-Twj7SGDoxv0BE4YtESEos7q6sSGgPP0NxENFVZ0nz6X305IOBTsMcdAa0AKOoMg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.022762,30.3278223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Cypress Hills Pool</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR5Xb4uAPU3NKxfFkyh2a9y6j67IjMZcZ9erFxKwr4jOJoITKjfosm2nhLmuO8SSlJGRamHeBmTdeYQRTcN8uQ2EufR_8kqrtyAyzFv576-3ucLtLT2IV6V_WIoWTE2TJdJ-EpIt1MsIH-oo2DqBrBgrr-rIbVEOSxApmyJ8XEoKUKkynX0kJeRgFf8Q7BuAi6C3uMRlNBBag?authuser=0&fife=s16383" height="200" width="auto" /><br><br>5620 Cypress Ranch Blvd<br>Spicewood, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AKcrxGR5Xb4uAPU3NKxfFkyh2a9y6j67IjMZcZ9erFxKwr4jOJoITKjfosm2nhLmuO8SSlJGRamHeBmTdeYQRTcN8uQ2EufR_8kqrtyAyzFv576-3ucLtLT2IV6V_WIoWTE2TJdJ-EpIt1MsIH-oo2DqBrBgrr-rIbVEOSxApmyJ8XEoKUKkynX0kJeRgFf8Q7BuAi6C3uMRlNBBag?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -98.0807894,30.3544526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>My Time Kids Academy - Spicewood
+</name>
+        <description><![CDATA[3108 R.O. Drive<br> Spicewood, TX 78669]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -98.0395198,30.3672095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rocky Creek Neighborhood</name>
+        <description>17201 Wildrye Dr, Dripping Springs, TX 78620</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -98.0336698,30.2898733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Winston's : coffee + provisions + pizza]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -98.0275134,30.3377432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>LTCL_Boundary</name>
+      <Placemark>
+        <name>1</name>
+        <description><![CDATA[1    <br>       <br>   FID   0    <br>   Shape_Leng   501544.317915]]></description>
+        <styleUrl>#poly-0288D1-4000-0</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -98.0145771,30.4831147,0
+                -98.0174002,30.4831087,0
+                -98.0194152,30.4827627,0
+                -98.0214822,30.4818277,0
+                -98.0227292,30.4806447,0
+                -98.0239642,30.4788147,0
+                -98.0251012,30.4764667,0
+                -98.0260002,30.4738857,0
+                -98.0283602,30.4665177,0
+                -98.0317482,30.4584807,0
+                -98.0336552,30.4543327,0
+                -98.0370662,30.4490457,0
+                -98.0419482,30.4430407,0
+                -98.0460592,30.4397717,0
+                -98.0487352,30.4375277,0
+                -98.0510682,30.4358117,0
+                -98.0555122,30.4333697,0
+                -98.0603112,30.4298837,0
+                -98.0639713,30.4288787,0
+                -98.0669013,30.4289117,0
+                -98.0685063,30.4290927,0
+                -98.0697243,30.4298017,0
+                -98.0709543,30.4311627,0
+                -98.0717783,30.4324347,0
+                -98.0724493,30.4338607,0
+                -98.0728903,30.4357587,0
+                -98.0731313,30.4376917,0
+                -98.0737533,30.4403197,0
+                -98.0749353,30.4425557,0
+                -98.0771533,30.4447907,0
+                -98.0802203,30.4474617,0
+                -98.0824833,30.4487427,0
+                -98.0851573,30.4493817,0
+                -98.0860693,30.4490537,0
+                -98.0865683,30.4484507,0
+                -98.0867933,30.4473087,0
+                -98.0865783,30.4461017,0
+                -98.0854783,30.4441157,0
+                -98.0840733,30.4410357,0
+                -98.0831163,30.4386317,0
+                -98.0835813,30.4375887,0
+                -98.0846423,30.4364997,0
+                -98.0860513,30.4356457,0
+                -98.0911493,30.4334247,0
+                -98.0919363,30.4327697,0
+                -98.0923443,30.4322997,0
+                -98.0926503,30.4314447,0
+                -98.0923533,30.4299887,0
+                -98.0910413,30.4263377,0
+                -98.0896243,30.4241537,0
+                -98.0880603,30.4231717,0
+                -98.0862063,30.4223757,0
+                -98.0836763,30.4221977,0
+                -98.0817853,30.4219927,0
+                -98.0797483,30.4214787,0
+                -98.0787233,30.4212497,0
+                -98.0775393,30.4207337,0
+                -98.0765043,30.4197797,0
+                -98.0761053,30.4189127,0
+                -98.0756643,30.4170717,0
+                -98.0746133,30.4130047,0
+                -98.0734073,30.4108637,0
+                -98.0691713,30.4054797,0
+                -98.0673893,30.4025637,0
+                -98.0671673,30.4017007,0
+                -98.0671573,30.4002297,0
+                -98.0678033,30.3989807,0
+                -98.0691063,30.3969987,0
+                -98.0730563,30.3920257,0
+                -98.0751063,30.3910307,0
+                -98.0781603,30.3904547,0
+                -98.0839993,30.3894487,0
+                -98.0856693,30.3896117,0
+                -98.0875413,30.3905997,0
+                -98.0900433,30.3928777,0
+                -98.0930473,30.3944777,0
+                -98.0949423,30.3953887,0
+                -98.0976683,30.3965827,0
+                -98.1012213,30.3986517,0
+                -98.1038943,30.4007967,0
+                -98.1068883,30.4026587,0
+                -98.1078593,30.4027377,0
+                -98.1084153,30.4025177,0
+                -98.1090403,30.4021467,0
+                -98.1096153,30.4011067,0
+                -98.1101383,30.3994347,0
+                -98.1108654,30.3936987,0
+                -98.1111354,30.3925007,0
+                -98.1109884,30.3912377,0
+                -98.1098133,30.3886957,0
+                -98.1089343,30.3866947,0
+                -98.1087633,30.3853847,0
+                -98.1089473,30.3832757,0
+                -98.1098013,30.3815717,0
+                -98.1115484,30.3803227,0
+                -98.1202524,30.3773027,0
+                -98.1227084,30.3764837,0
+                -98.1200924,30.3622637,0
+                -98.1193894,30.3611297,0
+                -98.1169844,30.3599827,0
+                -98.1162874,30.3598727,0
+                -98.1158464,30.3602607,0
+                -98.1137454,30.3642057,0
+                -98.1134024,30.3644587,0
+                -98.1129204,30.3644267,0
+                -98.1030123,30.3602547,0
+                -98.1026543,30.3598827,0
+                -98.1027793,30.3590497,0
+                -98.1025933,30.3587027,0
+                -98.0984883,30.3567937,0
+                -98.0981003,30.3562987,0
+                -98.0985903,30.3558077,0
+                -98.1096943,30.3497067,0
+                -98.1101933,30.3491987,0
+                -98.1099923,30.3486047,0
+                -98.1031773,30.3383697,0
+                -98.1029853,30.3378737,0
+                -98.1031143,30.3375137,0
+                -98.1255264,30.3263337,0
+                -98.1274454,30.3251347,0
+                -98.1279474,30.3245757,0
+                -98.1262674,30.3233877,0
+                -98.0893893,30.2973007,0
+                -98.0120721,30.2413867,0
+                -98.0115521,30.2419037,0
+                -98.0114061,30.2433217,0
+                -98.0109301,30.2441037,0
+                -98.0097661,30.2441597,0
+                -98.0086121,30.2432427,0
+                -98.0076951,30.2429777,0
+                -98.0067541,30.2436857,0
+                -98.0060091,30.2446447,0
+                -98.0062691,30.2452077,0
+                -98.0069211,30.2457117,0
+                -98.0093001,30.2465717,0
+                -98.0107721,30.2476357,0
+                -98.0111911,30.2485027,0
+                -98.0110011,30.2490917,0
+                -98.0086481,30.2499657,0
+                -98.0048741,30.2504697,0
+                -98.0032711,30.2512617,0
+                -98.0029731,30.2517727,0
+                -98.0031371,30.2522907,0
+                -98.0035341,30.2540557,0
+                -98.0029601,30.2550567,0
+                -98.0016981,30.2553777,0
+                -97.9987631,30.2557637,0
+                -97.9978581,30.2567787,0
+                -97.9968041,30.2576187,0
+                -97.9970481,30.2584637,0
+                -97.9978631,30.2602357,0
+                -97.9973831,30.2618887,0
+                -97.9962751,30.2622117,0
+                -97.9938231,30.2617087,0
+                -97.9928741,30.2618247,0
+                -97.9923511,30.2624457,0
+                -97.9920781,30.2629187,0
+                -97.9930051,30.2636987,0
+                -97.9951241,30.2643297,0
+                -97.9958801,30.2652367,0
+                -97.9962481,30.2660347,0
+                -97.9954991,30.2669917,0
+                -97.9946271,30.2675867,0
+                -97.9936541,30.2677137,0
+                -97.9922981,30.2674297,0
+                -97.9906951,30.2673237,0
+                -97.9893061,30.2674317,0
+                -97.9880451,30.2677147,0
+                -97.9870021,30.2689747,0
+                -97.9862161,30.2723607,0
+                -97.9851741,30.2735827,0
+                -97.9842671,30.2737447,0
+                -97.9830041,30.2728587,0
+                -97.9826231,30.2723507,0
+                -97.9822101,30.2714847,0
+                -97.9820311,30.2707177,0
+                -97.9824041,30.2689677,0
+                -97.9827771,30.2676977,0
+                -97.9822151,30.2666707,0
+                -97.9809691,30.2655417,0
+                -97.9799851,30.2652747,0
+                -97.9790571,30.2654487,0
+                -97.9774821,30.2668907,0
+                -97.9770311,30.2682197,0
+                -97.9774291,30.2708427,0
+                -97.9771451,30.2716787,0
+                -97.9767561,30.2722827,0
+                -97.9757741,30.2727847,0
+                -97.9748531,30.2725457,0
+                -97.9739901,30.2717457,0
+                -97.9711971,30.2668417,0
+                -97.9705241,30.2660947,0
+                -97.9694241,30.2652807,0
+                -97.9676161,30.2653907,0
+                -97.9665981,30.2657557,0
+                -97.966138,30.2663077,0
+                -97.965809,30.2673627,0
+                -97.966156,30.2689687,0
+                -97.965529,30.2708587,0
+                -97.965002,30.2714147,0
+                -97.964293,30.2714757,0
+                -97.962238,30.2710497,0
+                -97.959346,30.2697527,0
+                -97.957185,30.2694817,0
+                -97.956366,30.2697187,0
+                -97.956252,30.2708917,0
+                -97.956867,30.2720127,0
+                -97.957711,30.2726117,0
+                -97.959795,30.2733797,0
+                -97.960335,30.2740517,0
+                -97.960192,30.2757487,0
+                -97.958317,30.2767977,0
+                -97.957384,30.2770667,0
+                -97.956435,30.2770477,0
+                -97.955394,30.2768327,0
+                -97.954348,30.2763257,0
+                -97.952721,30.2762327,0
+                -97.95143,30.2758377,0
+                -97.948371,30.2769027,0
+                -97.947082,30.2770227,0
+                -97.945342,30.2764737,0
+                -97.943661,30.2758897,0
+                -97.942937,30.2758007,0
+                -97.942089,30.2762997,0
+                -97.941856,30.2768307,0
+                -97.94208,30.2775417,0
+                -97.942788,30.2791587,0
+                -97.943036,30.2798127,0
+                -97.942803,30.2803247,0
+                -97.942304,30.2809447,0
+                -97.941284,30.2812317,0
+                -97.940183,30.2812687,0
+                -97.938866,30.2807797,0
+                -97.936108,30.2787447,0
+                -97.933506,30.2775497,0
+                -97.932596,30.2775547,0
+                -97.932235,30.2778917,0
+                -97.932371,30.2794987,0
+                -97.933398,30.2807027,0
+                -97.934314,30.2819037,0
+                -97.934556,30.2828057,0
+                -97.934334,30.2837377,0
+                -97.933234,30.2846147,0
+                -97.932129,30.2848227,0
+                -97.931034,30.2846117,0
+                -97.928667,30.2833257,0
+                -97.926469,30.2824127,0
+                -97.925655,30.2823337,0
+                -97.925115,30.2828197,0
+                -97.924632,30.2836507,0
+                -97.924496,30.2846797,0
+                -97.924698,30.2854307,0
+                -97.929537,30.2854057,0
+                -97.934798,30.2858957,0
+                -97.936941,30.2867447,0
+                -97.937568,30.2864167,0
+                -97.937983,30.2856777,0
+                -97.938199,30.2849747,0
+                -97.93674,30.2832017,0
+                -97.936844,30.2826517,0
+                -97.944594,30.2808547,0
+                -97.945372,30.2808787,0
+                -97.947226,30.2829147,0
+                -97.947474,30.2834447,0
+                -97.944402,30.2908307,0
+                -97.944675,30.2914047,0
+                -97.946313,30.2918837,0
+                -97.94844,30.2919897,0
+                -97.95128,30.2916327,0
+                -97.951633,30.2912457,0
+                -97.952113,30.2894637,0
+                -97.952494,30.2891347,0
+                -97.959146,30.2905787,0
+                -97.966189,30.2884487,0
+                -97.9670231,30.2876747,0
+                -97.9675901,30.2875437,0
+                -97.9719141,30.2876207,0
+                -97.9721391,30.2880687,0
+                -97.9718231,30.2893527,0
+                -97.9721291,30.2897017,0
+                -97.9742271,30.2891617,0
+                -97.9758991,30.2890937,0
+                -97.9780751,30.2893367,0
+                -97.9814551,30.2904447,0
+                -98.0009491,30.2989337,0
+                -98.0019971,30.3006127,0
+                -98.0030191,30.3042947,0
+                -98.0030271,30.3067127,0
+                -98.0021841,30.3103297,0
+                -97.9942211,30.3270337,0
+                -97.9923901,30.3262547,0
+                -97.9831741,30.3223047,0
+                -97.9827371,30.3230417,0
+                -97.9813571,30.3254807,0
+                -97.9809881,30.3261607,0
+                -97.9805941,30.3263537,0
+                -97.9767091,30.3246887,0
+                -97.9760171,30.3259747,0
+                -97.9718521,30.3216577,0
+                -97.9711691,30.3211947,0
+                -97.965675,30.3257647,0
+                -97.963954,30.3274587,0
+                -97.96317,30.3279137,0
+                -97.961532,30.3283097,0
+                -97.959961,30.3282967,0
+                -97.955349,30.3266057,0
+                -97.954626,30.3266107,0
+                -97.949685,30.3325737,0
+                -97.949016,30.3329197,0
+                -97.942514,30.3323107,0
+                -97.939482,30.3313557,0
+                -97.937522,30.3304617,0
+                -97.936482,30.3297137,0
+                -97.931928,30.3253947,0
+                -97.92912,30.3250667,0
+                -97.92634,30.3240607,0
+                -97.922066,30.3236997,0
+                -97.92139,30.3243797,0
+                -97.9175159,30.3252467,0
+                -97.9116809,30.3280387,0
+                -97.9109789,30.3281027,0
+                -97.9102839,30.3267807,0
+                -97.9106869,30.3235417,0
+                -97.9115229,30.3216537,0
+                -97.9133599,30.3200467,0
+                -97.9139139,30.3190377,0
+                -97.9138209,30.3180947,0
+                -97.9134929,30.3179127,0
+                -97.9130909,30.3180577,0
+                -97.8983649,30.3387637,0
+                -97.8981769,30.3396007,0
+                -97.8995369,30.3398247,0
+                -97.9005819,30.3394047,0
+                -97.9034019,30.3367087,0
+                -97.9058809,30.3344477,0
+                -97.9076189,30.3322207,0
+                -97.9091929,30.3309307,0
+                -97.9137619,30.3283857,0
+                -97.9175809,30.3263637,0
+                -97.920431,30.3257997,0
+                -97.924154,30.3258957,0
+                -97.927558,30.3269267,0
+                -97.93106,30.3286727,0
+                -97.934094,30.3314997,0
+                -97.934654,30.3337637,0
+                -97.934612,30.3354437,0
+                -97.933784,30.3368797,0
+                -97.93308,30.3377447,0
+                -97.931518,30.3394537,0
+                -97.93041,30.3405977,0
+                -97.928645,30.3425127,0
+                -97.926029,30.3450037,0
+                -97.9164719,30.3540897,0
+                -97.9145119,30.3572777,0
+                -97.9135819,30.3601447,0
+                -97.9132349,30.3614907,0
+                -97.9130409,30.3624717,0
+                -97.9131519,30.3635397,0
+                -97.9138669,30.3704237,0
+                -97.9143699,30.3752667,0
+                -97.9146319,30.3841337,0
+                -97.9144279,30.3852187,0
+                -97.9140389,30.3866817,0
+                -97.9136879,30.3875157,0
+                -97.9130929,30.3884017,0
+                -97.9118519,30.3895627,0
+                -97.9106119,30.3903857,0
+                -97.9066759,30.3920437,0
+                -97.9049179,30.3925157,0
+                -97.9005019,30.3932247,0
+                -97.8972339,30.3936717,0
+                -97.8953799,30.3941917,0
+                -97.8914469,30.3958867,0
+                -97.8875019,30.3984977,0
+                -97.8863919,30.3996797,0
+                -97.8848569,30.4011397,0
+                -97.8834889,30.4030447,0
+                -97.8818369,30.4053237,0
+                -97.8823569,30.4076237,0
+                -97.8849129,30.4084747,0
+                -97.8867049,30.4090437,0
+                -97.8887179,30.4087577,0
+                -97.8900089,30.4082477,0
+                -97.8933179,30.4063627,0
+                -97.8966869,30.4046887,0
+                -97.9009849,30.4037767,0
+                -97.9045589,30.4053537,0
+                -97.9066159,30.4111787,0
+                -97.9088989,30.4181207,0
+                -97.9100749,30.4225707,0
+                -97.9119239,30.4261767,0
+                -97.9153519,30.4296697,0
+                -97.919022,30.4331477,0
+                -97.923179,30.4352697,0
+                -97.926492,30.4362827,0
+                -97.93079,30.4376467,0
+                -97.934854,30.4382007,0
+                -97.939044,30.4381067,0
+                -97.942218,30.4372297,0
+                -97.946497,30.4353047,0
+                -97.948647,30.4339497,0
+                -97.950255,30.4322037,0
+                -97.951585,30.4301087,0
+                -97.952899,30.4268667,0
+                -97.953088,30.4227827,0
+                -97.952275,30.4200367,0
+                -97.949491,30.4167387,0
+                -97.945914,30.4131117,0
+                -97.94136,30.4087377,0
+                -97.938105,30.4049337,0
+                -97.93786,30.4014907,0
+                -97.938935,30.3990087,0
+                -97.940862,30.3968487,0
+                -97.943828,30.3948617,0
+                -97.945132,30.3941807,0
+                -97.946964,30.3938967,0
+                -97.954068,30.3945787,0
+                -97.959412,30.3950927,0
+                -97.965948,30.3945067,0
+                -97.9682131,30.3941157,0
+                -97.9711151,30.3931307,0
+                -97.9736811,30.3918027,0
+                -97.9754401,30.3901547,0
+                -97.9774271,30.3881477,0
+                -97.9815071,30.3834667,0
+                -97.9877501,30.3776797,0
+                -97.9919201,30.3764567,0
+                -97.9983821,30.3751997,0
+                -98.0094761,30.3717457,0
+                -98.0109821,30.3715907,0
+                -98.0126031,30.3719247,0
+                -98.0135591,30.3724577,0
+                -98.0156042,30.3744427,0
+                -98.0163642,30.3774067,0
+                -98.0161812,30.3802477,0
+                -98.0151342,30.3827297,0
+                -98.0086911,30.3898257,0
+                -98.0027931,30.3950477,0
+                -97.9999271,30.3968777,0
+                -97.9971821,30.3984207,0
+                -97.9931001,30.4004667,0
+                -97.9876571,30.4030967,0
+                -97.9859641,30.4039847,0
+                -97.9849721,30.4048827,0
+                -97.9841931,30.4061487,0
+                -97.9835321,30.4079507,0
+                -97.9836241,30.4105317,0
+                -97.9845571,30.4119987,0
+                -97.9855731,30.4127817,0
+                -97.9867351,30.4130507,0
+                -97.9891331,30.4131907,0
+                -97.9976531,30.4135367,0
+                -98.0075011,30.4136197,0
+                -98.0163662,30.4142197,0
+                -98.0214732,30.4144647,0
+                -98.0277992,30.4153047,0
+                -98.0302122,30.4157677,0
+                -98.0333082,30.4169997,0
+                -98.0358722,30.4184697,0
+                -98.0372092,30.4200047,0
+                -98.0376282,30.4211957,0
+                -98.0372032,30.4238567,0
+                -98.0360402,30.4273317,0
+                -98.0339872,30.4311907,0
+                -98.0306192,30.4347207,0
+                -98.0275802,30.4373597,0
+                -98.0235942,30.4409167,0
+                -98.0192152,30.4451917,0
+                -98.0144071,30.4498607,0
+                -98.0124681,30.4507427,0
+                -98.0070031,30.4515797,0
+                -98.0024361,30.4535597,0
+                -98.0004981,30.4553197,0
+                -97.9995721,30.4571357,0
+                -97.9993121,30.4587547,0
+                -97.9994491,30.4613167,0
+                -98.0003021,30.4652277,0
+                -98.0022071,30.4712217,0
+                -98.0038491,30.4744597,0
+                -98.0061421,30.4780917,0
+                -98.0081371,30.4804007,0
+                -98.0106321,30.4821077,0
+                -98.0131041,30.4829357,0
+                -98.0145771,30.4831147,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>New World RV Park #2</name>
+        <description>4607 Doss Road, Austin, TX, 78734</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -97.9298672,30.4103224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
