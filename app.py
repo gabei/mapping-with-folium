@@ -34,20 +34,18 @@ boundary_coords = []
 with open("./data/district_coordinates.txt", "r") as file:
     for line in file:
         coord = line.split(",")
-        x = float(coord[0])
-        y = float(coord[1])
-        boundary_coords.append([x, y])
+        lat = float(coord[1])
+        long = float(coord[0])
+        boundary_coords.append([lat, long])
         
 # remove potential duplicate coordinates
 boundary = list(coord for coord,_ in itertools.groupby(boundary_coords))
-print(boundary)
 
 folium.Polygon(
     locations=boundary,
     color="blue",
-    weight=6,
-    fill_color="green",
-    fill_opacity=0.25,
+    weight=1,
+    fill_opacity=0.05,
     no_clip=True,
     fill=True,
     popup="Lake Travis Community Library District",
